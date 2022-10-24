@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lightBrown: #ddb892;
+  --darkBrown: #432818;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--darkBrown);
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--lightBrown);
+  padding: 1.5rem;
+}
+
+.nav a:hover {
+  background-color: #ddb8923f;
+}
