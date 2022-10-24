@@ -17,6 +17,7 @@
   background-color: var(--darkBrown);
   gap: 2rem;
   padding: 0 1rem;
+  align-items: strech;
 }
 
 .nav ul {
@@ -30,8 +31,12 @@
   text-decoration: none;
   color: var(--lightBrown);
   padding: 1.5rem;
+  height: 100%;
+  display: flex;
 }
 
-.nav a:hover {
+
+.nav li.active {
   background-color: #ddb8923f;
 }
+
